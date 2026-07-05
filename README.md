@@ -79,8 +79,13 @@ Licensing & the ML edition: **licensing@e-tools.ai**
 
 ## License
 
-- **This repository** (docs, manuals, examples) — [MIT](LICENSE).
+This repository distributes prebuilt binaries and documentation — **no source
+code**.
+
+- **This repository** (docs, manuals) and the distributed **binaries** (`abepro`,
+  `abepel`) — the [Abe Pro Distribution & Documentation License](LICENSE): free to
+  use (incl. commercially), verbatim redistribution permitted; not open source.
 - **The Abe runtime** — [Abe Runtime Redistribution License](ABE-RUNTIME-REDISTRIBUTION-LICENSE.md) (royalty-free redistribution).
 - **Trademarks** — *Abe*, *Abe Pro*, *Abe PeL*, *Abe Vibe*, and *Abe-LLM* are
-  trademarks of E-Tools AI Corporation; see [TRADEMARK.md](TRADEMARK.md). The MIT
-  license covers copyright only, not trademark rights.
+  trademarks of E-Tools AI Corporation; see [TRADEMARK.md](TRADEMARK.md). The
+  license covers copyright/use only, not trademark rights.

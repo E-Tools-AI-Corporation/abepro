@@ -1,12 +1,13 @@
 # Trademark Notice
 
-The source code in this repository is licensed under the [MIT License](LICENSE).
-**That license covers copyright only. It does not grant any trademark rights.**
+The materials in this repository (documentation and prebuilt binaries) are
+provided under the terms in [LICENSE](LICENSE). Those terms concern copyright and
+use only. **They do not grant any trademark rights.**
 
 ## Reserved names
 
 The following names are trademarks of **E-Tools AI Corporation** and are **not**
-licensed under the MIT License:
+licensed under [LICENSE](LICENSE):
 
 - **Abe**
 - **Abe Pro**
@@ -17,29 +18,22 @@ licensed under the MIT License:
 together with any associated logos, wordmarks, and confusingly similar variations.
 All rights in these marks are reserved by E-Tools AI Corporation.
 
-## What the MIT License lets you do
-
-The MIT License grants broad freedom over the **code**. You may use, copy, modify,
-merge, publish, distribute, sublicense, and sell copies of the Software, including
-creating and distributing modified versions (forks), subject only to the MIT
-License's conditions (retaining the copyright and permission notice).
-
 ## What this trademark notice reserves
 
-Copyright permission is separate from trademark permission. Accordingly, **without
+Use permission is separate from trademark permission. Accordingly, **without
 prior written permission from E-Tools AI Corporation, you may not**:
 
 - Use "Abe", "Abe Pro", "Abe PeL", "Abe Vibe", "Abe-LLM", or any confusingly
-  similar name to **name, brand, or market** a fork, derivative work, or any
-  product or service.
+  similar name to **name, brand, or market** a product, service, or repackaged
+  distribution.
 - Use these names or logos in a way that **states or implies** endorsement,
   sponsorship, affiliation with, or origination from E-Tools AI Corporation when
   none exists.
 - Register these names (or confusingly similar names) as trademarks, business
   names, product names, domain names, package names, or social-media handles.
 
-If you distribute a modified version, please give it a **distinct name** that does
-not include the reserved marks, and make clear it is not the official
+If you redistribute these materials (as permitted by [LICENSE](LICENSE)), keep the
+official name and notices intact and do not imply it is your own official
 distribution.
 
 ## Nominative (descriptive) use is fine
@@ -58,6 +52,6 @@ contact E-Tools AI Corporation.
 ---
 
 *This notice concerns trademarks only and does not modify, limit, or add
-conditions to the rights granted under the [MIT License](LICENSE). If any conflict
-is perceived between this notice and the MIT License with respect to the software
-copyright grant, the MIT License controls as to that grant.*
+conditions to the rights granted under [LICENSE](LICENSE). If any conflict is
+perceived between this notice and LICENSE with respect to the copyright/use grant,
+LICENSE controls as to that grant.*
