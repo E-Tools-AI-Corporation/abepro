@@ -10,7 +10,7 @@ The bundle ships the compiler and the free runtime together; `abepro` finds the
 runtime automatically.
 
 ```bash
-VER=0.2.0
+VER=1.0.0
 curl -fsSL -O https://github.com/E-Tools-AI-Corporation/abepro/releases/latest/download/abepro-$VER-linux-x86_64.tar.gz
 curl -fsSL -O https://github.com/E-Tools-AI-Corporation/abepro/releases/latest/download/SHA256SUMS
 sha256sum -c SHA256SUMS 2>/dev/null | grep abepro-$VER   # verify
@@ -25,7 +25,7 @@ echo 'function main(): i64 { console.log("Hello from Abe Pro"); return 0; }' > h
 Layout:
 
 ```
-abepro-0.2.0/
+abepro-1.0.0/
   bin/abepro        the compiler (free edition)
   bin/abepel        the PeL compiler
   runtime/          the free Abe runtime (found automatically as ../runtime)
@@ -38,7 +38,7 @@ To run from anywhere, add `bin/` to your `PATH`, or set
 ## Option B — the bare compiler + standalone runtime
 
 ```bash
-VER=0.2.0
+VER=1.0.0
 # compiler
 curl -fsSL -o abepro https://github.com/E-Tools-AI-Corporation/abepro/releases/latest/download/abepro-linux-x86_64
 chmod +x abepro

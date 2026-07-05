@@ -16,7 +16,7 @@ compiler source is not published here. The free Abe **runtime** is a separately
 licensed, freely-redistributable library (ARRL) and is published with the
 [releases](https://github.com/E-Tools-AI-Corporation/abepro/releases/latest).
 
-> **Status:** `0.2.0` · **platform: Linux x86-64** (glibc ≥ 2.34). macOS,
+> **Status:** `1.0.0` · **platform: Linux x86-64** (glibc ≥ 2.34). macOS,
 > Windows, and ARM builds are not published yet.
 
 ## What you get
@@ -45,10 +45,10 @@ printf 'function main(): i64 { console.log("Hello from Abe Pro"); return 0; }\n'
 ```
 
 For a self-contained bundle (compiler + the free runtime it finds automatically),
-download `abepro-0.2.0-linux-x86_64.tar.gz` from the
+download `abepro-1.0.0-linux-x86_64.tar.gz` from the
 [latest release](https://github.com/E-Tools-AI-Corporation/abepro/releases/latest);
 the free runtime is also published standalone as
-`abe-runtime-0.2.0-linux-x86_64.tar.gz`. See **[INSTALL.md](INSTALL.md)**, and
+`abe-runtime-1.0.0-linux-x86_64.tar.gz`. See **[INSTALL.md](INSTALL.md)**, and
 verify downloads against `SHA256SUMS`.
 
 ## Hello, Abe
