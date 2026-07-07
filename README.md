@@ -30,26 +30,31 @@ licensed, freely-redistributable library (ARRL) and is published with the
 
 ## Quick start
 
-```bash
-# Download the latest Linux x86-64 build
-curl -fsSL -o abepro \
-  https://github.com/E-Tools-AI-Corporation/abepro/releases/latest/download/abepro-linux-x86_64
-chmod +x abepro
-./abepro --version
+Download the **bundle** — it contains the compiler *and* the runtime it links,
+so native compilation works out of the box:
 
-# Type-check and compile Abe source
+```bash
+# Download + unpack the bundle (compiler + runtime)
+curl -fsSL -O https://github.com/E-Tools-AI-Corporation/abepro/releases/latest/download/abepro-1.0.0-linux-x86_64.tar.gz
+tar xzf abepro-1.0.0-linux-x86_64.tar.gz
+cd abepro-1.0.0
+./bin/abepro --version
+
+# Compile Abe source to a native binary (needs clang + llc on PATH;
+# the runtime in ./runtime is found automatically)
 printf 'function main(): i64 { console.log("Hello from Abe Pro"); return 0; }\n' > hello.abe
-./abepro --check   hello.abe
-./abepro           hello.abe -o hello   # needs clang + llc on PATH
+./bin/abepro hello.abe -o hello
 ./hello
 ```
 
-For a self-contained bundle (compiler + the free runtime it finds automatically),
-download `abepro-1.0.0-linux-x86_64.tar.gz` from the
-[latest release](https://github.com/E-Tools-AI-Corporation/abepro/releases/latest);
-the free runtime is also published standalone as
-`abe-runtime-1.0.0-linux-x86_64.tar.gz`. See **[INSTALL.md](INSTALL.md)**, and
-verify downloads against `SHA256SUMS`.
+> **Note:** the standalone **bare** binary (`abepro-linux-x86_64`) has no runtime
+> beside it, so it can `--check` and `--emit-ll` anywhere, but native `-o`
+> compilation needs the runtime — use the bundle, or point the bare binary at a
+> runtime with `ABE_RUNTIME_DIR=<path>/runtime`. The free runtime is also
+> published standalone as `abe-runtime-1.0.0-linux-x86_64.tar.gz`.
+
+See **[INSTALL.md](INSTALL.md)** for details, and verify downloads against
+`SHA256SUMS`.
 
 ## Hello, Abe
 
